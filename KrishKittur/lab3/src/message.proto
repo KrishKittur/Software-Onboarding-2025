@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package proto3;
+
+message SimpleMessage {
+    string text = 1;
+    string sender_name = 2;
+}
+
